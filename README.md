@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./frontend/src/assets/tripseekFont.svg" alt="TripSeek Logo" width="300"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./frontend/src/assets/tripseekFont-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./frontend/src/assets/tripseekFont-light.svg">
+    <img alt="TripSeek Logo" src="./frontend/src/assets/tripseekFont-light.svg" width="300">
+  </picture>
   <h1>🌍 TripSeek</h1>
   <p><strong>Your AI-Powered Personalized Travel Planner</strong></p>
   <p><i>Built for the <a href="https://ai.google.dev/competition/projects/tripseekai?hl=it">Google Gemini API Developer Competition</a></i></p>
